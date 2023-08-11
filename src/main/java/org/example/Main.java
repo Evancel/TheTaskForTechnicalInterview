@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class Main {
 
     public static void main(String[] args) {
-        List<String> names = new ArrayList(List.of("Ivan","Petr","Semen","Oleg","Artem","Grigoriy"));
+        List<String> names = new ArrayList(List.of("Ivan","Petr","Semen","Oleg","Artem","Anton"));
         List <String> changedNames = task(names);
         System.out.println(changedNames);
     }
